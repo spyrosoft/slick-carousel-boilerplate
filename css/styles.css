@@ -1,0 +1,22 @@
+body {
+	background-color: #000000;
+	text-align: center;
+	padding-top: 2rem;
+}
+
+.slick-demo {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.slick-dots li button:before {
+	color: #ffffff;
+}
+
+.slick-dots li.slick-active button:before {
+	color: #ff0000;
+}
+
+ul.slick-dots {
+	margin-left: 0;
+}

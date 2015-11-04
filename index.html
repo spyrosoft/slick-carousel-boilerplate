@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Slick Carousel Boilerplate</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="./css/normalize.min.css" rel="stylesheet" type="text/css" />
+	<link href="./css/foundation.min.css" rel="stylesheet" type="text/css" />
+	<link href="./css/slick.css" rel="stylesheet" type="text/css" />
+	<link href="./css/slick-theme.css" rel="stylesheet" type="text/css" />
+	<link href="./css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="slick-demo">
+		<img src="./images/fractal-1.png">
+		<img src="./images/fractal-2.png">
+		<img src="./images/fractal-3.png">
+	</div>
+	
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/foundation.min.js"></script>
+	<script src="./js/slick.min.js"></script>
+	
+	<script>
+		$( '.slick-demo' ).slick({
+			autoplay: true,
+			autoplaySpeed: 2500,
+			arrows: false,
+			dots: true
+		});
+	</script>
+</body>
+</html>
